@@ -1,14 +1,14 @@
 public class Character {
-    protected final String name;
+    protected String name;
     protected int level = 1;
     protected double HP;
-    private final double maxHP = 100;
+    private  double maxHP = 100;
     protected double Mana;
-    private final double maxMana = 50;
+    private double maxMana = 50;
     protected double run_speed = 10;
     private Sword sword;
     private Shield shield;
-    private final Jobs jobs;
+    private Jobs jobs;
     private Accessories accessories;
 
     public Character(String name, Jobs jobs) {
